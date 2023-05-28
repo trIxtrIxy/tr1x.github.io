@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" contents="with=device-width, initial-scale=1.0">
+    <title>Front Row Gaming</title>
+    <link ref="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+        <section class="header">
+    <nav>
+           <a href="https://imgbb.com/"><img src="https://i.ibb.co/MNN5G1L/joystick.jpg" alt="joystick" border="0"></a> 
+           <div class="nav-links" id="navLinks">     
+           <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+           <ul>
+               <li><a href="website.html">Home</a></li>
+               <li><a href="info.html">Game Info</a></li>
+               <li><a href="view.html">Play View</a></li>
+               
+            </div>    
+            <i class="fa-solid fa-circle-chevron-down" onclick="showMenu()"></i>                   
+        </nav>
+   
+ <div class="text-box">
+     <h1>A Gamer's Pack</h1>
+     <p>Video games are fun because they transport us to new realities and satisfy our needs for achievement and recognition. </p>
+  <a href="https://en.m.wikipedia.org/wiki/PewDiePie">A Gamer's Career</a>          
+ </div> 
+        
+  <!------Gaming Info------>       
+
+<section class="gaming-info">
+  <h1>Gaming Info</h1>  
+  <p>Action, Adventures, 5v5 and more! </p>  
+  <div class="row">
+   <div class="gaming-info-col">
+  <h3>Call Of Duty</h3>     
+    <p>Is a first-person shooter video game franchise published by Activision.</p>
+           
+   </div>   
+  </div>
+  <div class="gaming-info-col">
+  <h3>Genshin Impact</h3>     
+    <p>Is an action role-playing game developed by miHoYo, and published by miHoYo in mainland China and by HoYoverse worldwide. </p>           
+   </div> 
+   <div class="gaming-info-col">
+    <h3>Valorant</h3>     
+    <p>Is a free-to-play first-person tactical hero shooter developed and published by Riot Games. </p>           
+   </div> 
+   
+</section>
+
+
+<!------Global Gaming------>
+
+<section class="global">
+    <div class="row">
+        <div class="global-col">
+      
+       </div>     
+    <a href="https://ibb.co/d6fZykH"><img src="https://i.ibb.co/P4rk81V/codmportrait1.jpg" alt="codmportrait1" border="0"></a>  
+     <div class="layer">
+         <h3>CALL OF DUTY</h3>     
+        </div>
+    </div>
+    
+  <div class="row">
+   <div class="global-col">
+     <a href="https://ibb.co/GsSBt16"><img src="https://i.ibb.co/7gm8RTf/aether.png" alt="aether" border="0"></a>
+     <h3>GENSHIN IMPACT</h3>  
+   </div>
+    <div class="row">
+        <div class="global-col">
+  <a href="https://ibb.co/3169pmQ"><img src="https://i.ibb.co/G7Y4WQN/valorantportrait1.jpg" alt="valorantportrait1" border="0"></a>
+  <h3>VALORANT</h3>          
+    </div>
+</section>
+
+         
+ </section>
+     
+    
+    <!------Footer------>
+    
+    <section class="footer">
+       <h4>Watch Games Here</h4> 
+     <div class="icons" >
+         <i class="fa fa-facebook"></i>
+         <i class="fa fa-twitter"></i>
+         <i class="fa fa-youtube"></i>
+         <i class="fa fa-twitch"></i>
+     </div>  
+        
+    </section>
+    
+    
+   
+    
+    
+    
+       
+          
+     <!------JavaScript for Toggle Menu------>
+    
+     <script>
+         
+        var navLinks= document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+         
+     </script> 
+</body>
+</html>
+ 
